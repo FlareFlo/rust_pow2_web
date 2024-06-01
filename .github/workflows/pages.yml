@@ -28,7 +28,7 @@ jobs:
           # Optional version of trunk to install(eg. 'v0.16.0', 'latest')
           version: 'latest'
       - name: Build
-        run: trunk build --release --public-url rust_pow2_web
+        run: trunk build --release
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
