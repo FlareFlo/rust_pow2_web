@@ -33,9 +33,7 @@ jobs:
       - name: Build
         run: trunk build --release
 
-      - name: Deploy demo
-        uses: JamesIves/github-pages-deploy-action@v4.2.2
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: gh-pages
-          folder: .
-          clean: true
+          folder: dist
