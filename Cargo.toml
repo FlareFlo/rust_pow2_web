@@ -1,0 +1,15 @@
+[package]
+name = "Rust_pow_2"
+version = "0.1.0"
+edition = "2021"
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+yew = { version="0.21", features=["csr"] }
+web-sys = "0.3.69"
+log = "0.4.21"
+console_log = "1.0.0"
+
+rust-pow2 = { git = "https://github.com/FlareFlo/rust-pow2.git"}
+#rust-pow2 = { path = "../rust-pow2"}
